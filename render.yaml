@@ -53,6 +53,8 @@ services:
           property: user
       - key: WEBHOOK_URL
         value: https://n8n.oul.io
+      - key: N8N_LOG_LEVEL
+        value: debug
 
 databases:
   - name: n8n-db
