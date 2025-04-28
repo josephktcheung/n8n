@@ -55,6 +55,8 @@ services:
         value: https://n8n.oul.io
       - key: N8N_LOG_LEVEL
         value: debug
+      - key: NODE_FUNCTION_ALLOW_EXTERNAL
+        value: axios,cheerio,node-fetch,twilio
 
 databases:
   - name: n8n-db
